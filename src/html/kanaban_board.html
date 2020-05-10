@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!-- Created By Armand Martin -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="../css/kanaban_board.css">
+  <script src="../javscript/kanaban_board.js"></script>
+</head>
+
+<body>
+  <section class="flex_box_container">
+
+    <article id="todo_article">
+      <h1>Todo</h1>
+
+      <div class="task_creation">
+        <h2>Create a task</h2>
+        <div class="input_newtask" align="center">
+          <input type="text" id="newtask">
+        </div>
+        <button onclick="createTask()">Create Task</button>
+      </div>
+    </article>
+
+    <article id="progress_article">
+      <h1>In Progress</h1>
+    </article>
+
+    <article id="completed_article">
+      <h1> Complete </h1>
+    </article>
+  </section>
+</body>
+
+</html>
